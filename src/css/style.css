@@ -1,0 +1,88 @@
+.container {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.informacoes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 10rem;
+    color: #FFF;
+}
+
+.informacoes p {
+    width: 50%;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.caixa-form {
+    width: 35rem;
+    height: 80%;
+    margin-top: 35px;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+
+.input-box {
+    background: #FFF;
+}
+
+input {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.mensagem {
+    padding-bottom: 75px;
+}
+
+.obrigatorio {
+    visibility: hidden;
+}
+
+button {
+    border: none;
+    background-color: #3CCC87;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 35rem;
+    height: 4rem;
+    position: relative;
+    margin-top: 60px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.campo-obrigatorio {
+    visibility: visible;
+    color: #f01e1e;
+}
+
+.erro {
+    border: 2px solid #da0909;
+}
+
+.valido {
+    border: 2px solid #3CCC87;
+}
